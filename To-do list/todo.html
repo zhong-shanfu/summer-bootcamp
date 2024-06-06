@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My To-Do List</title>
+    <link rel="stylesheet" href="https://unpkg.com/mvp.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>My To-Do List</h1>
+    </header>
+
+    <main>
+        <section class="new-task">
+            <h2>Add a new task</h2>
+            <form id="new-task-form">
+                <input type="text" id="new-task" placeholder="Enter a new task" required>
+                <button type="submit">Add Task</button>
+            </form>
+        </section>
+        <section class="tasks">
+            <h2>Tasks</h2>
+            <ul id="task-list">
+                <li><input type="checkbox"> Task 1</li>
+                <li><input type="checkbox"> Task 2</li>
+                <li><input type="checkbox"> Task 3</li>
+            </ul>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 My To-Do List. All rights reserved.</p>
+    </footer>
+</body>
+</html>
